@@ -33,4 +33,4 @@ jobs:
 
       - name: Executar testes
         run: |
-          pytest app/tests -v --tb=short
+          pytest tests/ -v --tb=short
